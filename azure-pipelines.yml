@@ -19,7 +19,6 @@ steps:
   displayName: 'Run a multi-line script'
 
 # for PowerShell Core
-steps:
 - pwsh: (Get-Content https://github.com/Den-kovalevskiy/PS/blob/e001be8caca79add2afd450cc0ff707f545fa6e9/Connection.txt) -replace '__TOKEN__', 'SQL-srv-01'
 
 
