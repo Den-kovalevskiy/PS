@@ -1,1 +1,0 @@
-New-AzResourceGroup -Name tst666 -Location "South Central US"
